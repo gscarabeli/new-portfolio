@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
+  <title>Scarabeli's - Portfolio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/logo_tab.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -47,26 +47,25 @@
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
       <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
-      <h1 class="sitename">Alex Smith</h1>
+      <img src="assets/img/logo.png" alt="" class="img-fluid rounded-circle">
+      <h1 class="sitename">Gustavo Scarabeli</h1>
     </a>
 
     <div class="social-links text-center">
-      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.linkedin.com/in/gustavo-scarabeli/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/gscarabeli" class="github"><i class="bi bi-github"></i></a>
+      <a href="https://www.instagram.com/_scarabeli/" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="https://x.com/_scarabeli" class="twitter"><i class="bi bi-twitter-x"></i></a>
     </div>
 
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="#hero"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-        <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+        <li><a href="/index.html#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="/index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="/index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="/index.html#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <!-- <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li> -->
+        <!-- <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
             <li><a href="#">Dropdown 1</a></li>
             <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -82,8 +81,8 @@
             <li><a href="#">Dropdown 3</a></li>
             <li><a href="#">Dropdown 4</a></li>
           </ul>
-        </li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        </li> -->
+        <li><a href="/index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
     </nav>
 
@@ -94,6 +93,9 @@
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
+        <button onclick="history.back()" class="btn btn-primary mt-2" style="background-color: #149ddd;">
+          <i class="bi bi-arrow-left"></i>
+        </button>
         <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
         <nav class="breadcrumbs">
           <ol>
@@ -197,7 +199,9 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
